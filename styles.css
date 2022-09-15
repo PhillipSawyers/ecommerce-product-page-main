@@ -35,7 +35,7 @@ body {
 
 .navigation-right {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-left {
@@ -59,4 +59,12 @@ body {
   text-decoration: none;
   color: hsl(220, 14%, 75%);
   font-size: 16px;
+}
+
+.avatar img {
+  width: 32px;
+}
+
+.cart-icon {
+  margin-right: 15px;
 }
